@@ -2,11 +2,12 @@
 import os
 from sys import argv
 import subprocess
+import colorama
 
 
 class IDontUnderstand(Exception):
     def __init__(self, *args, **kwargs):
-        super.__init__(*args, **kwargs)
+        super().__init__(*args, **kwargs)
 
 
 def split_linewise(jon_code):
@@ -143,4 +144,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except IDontUnderstand as e:
+        print(e)

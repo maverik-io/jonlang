@@ -1,2 +1,0 @@
-from .temp import Temp
-
