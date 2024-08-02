@@ -23,7 +23,7 @@ say \<msg> and read aloud \<varname> | prints a message and the value of a varia
 |remember that \<varname> will be \<expression>| do math with variables| `jon, remember that s_square will be s times s`|
 ----
 
-> [! TIP]
+> [!TIP]
 > The above expression takes 4 keywords for math:
 > |operation|keyword|
 > |-|-|
@@ -31,7 +31,7 @@ say \<msg> and read aloud \<varname> | prints a message and the value of a varia
 > | Subtraction | minus |
 > | Multiplication | times |
 > | Division | by |
-> |||
+
 
 
 
